@@ -13,6 +13,6 @@ namespace Ticket_Tracker.Models
         public virtual DbSet<Status> Status { get; set; }
         public virtual DbSet<Ticket> Ticket { get; set; }
         public TicketContext() : base("TicketContext")
-        {
+        { }
     }
 }
